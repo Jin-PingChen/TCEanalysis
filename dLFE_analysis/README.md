@@ -1,4 +1,4 @@
-# dLFE_UTR_RTS_analysis  
+# dLFE_UTR_NTR_analysis  
 The code for computational implementation of *"Metagenomic mining of translational coupling elements enables programmable gene expression of polycistronic systems in E. coli"*. This pipeline identifies the 5'-UTR/-CDS regions for all UTNI gene, TeRe gene, and Leading gene. It calculates ΔLFE (delta-LFE, RNA folding free energy offset), supports multispecies batch analysis and generates publication-ready visualization outputs.    
 
 **Code origin note**: This pipeline is adapted from the computational method published in *Chemla, Y., et al. A possible universal role for mRNA secondary structure in bacterial translation revealed using a synthetic operon. Nat. Commun. 11, 4827 (2020). https://doi.org/10.1038/s41467-020-19291-1*. We reuse and refactor core algorithm logic; third-party dependency modules (codon_randomization.py, data_helpers.py, genome_model.py, gff.py, odb4.py, mysql_mafold.py, and nucleic_compress.py）are directly imported without modification.  
